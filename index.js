@@ -22,7 +22,7 @@ app.get("/",(req,res) => {
 app.use('/user', userRoutes)
 app.use('/questions', questionRoutes)
 app.use('/answer', answerRoutes)
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5000
 
 const DATABASE_URL = process.env.CONNECTION_URL
 connect(DATABASE_URL, {useNewUrlParser: true, useUnifiedTopology: true})
