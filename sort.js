@@ -1,1 +1,1 @@
-//algorithm for sorting
+//algorithm for sorting and manipulation
